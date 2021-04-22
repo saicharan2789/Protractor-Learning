@@ -1,0 +1,40 @@
+core.js:6185 ERROR Error: Uncaught (in promise): Error: Cannot match any routes. URL Segment: 'login'
+Error: Cannot match any routes. URL Segment: 'login'
+    at ApplyRedirects.noMatchError (router.js:4334)
+    at CatchSubscriber.selector (router.js:4298)
+    at CatchSubscriber.error (catchError.js:29)
+    at MapSubscriber._error (Subscriber.js:75)
+    at MapSubscriber.error (Subscriber.js:55)
+    at MapSubscriber._error (Subscriber.js:75)
+    at MapSubscriber.error (Subscriber.js:55)
+    at MapSubscriber._error (Subscriber.js:75)
+    at MapSubscriber.error (Subscriber.js:55)
+    at ThrowIfEmptySubscriber._error (Subscriber.js:75)
+    at resolvePromise (zone-evergreen.js:798)
+    at resolvePromise (zone-evergreen.js:750)
+    at zone-evergreen.js:860
+    at ZoneDelegate.invokeTask (zone-evergreen.js:399)
+    at Object.onInvokeTask (core.js:41264)
+    at ZoneDelegate.invokeTask (zone-evergreen.js:398)
+    at Zone.runTask (zone-evergreen.js:167)
+    at drainMicroTaskQueue (zone-evergreen.js:569)
+defaultErrorLogger @ core.js:6185
+handleError @ core.js:6238
+next @ core.js:42213
+schedulerFn @ core.js:36889
+__tryOrUnsub @ Subscriber.js:183
+next @ Subscriber.js:122
+_next @ Subscriber.js:72
+next @ Subscriber.js:49
+next @ Subject.js:39
+emit @ core.js:36851
+(anonymous) @ core.js:41326
+invoke @ zone-evergreen.js:364
+run @ zone-evergreen.js:123
+runOutsideAngular @ core.js:41122
+onHandleError @ core.js:41323
+handleError @ zone-evergreen.js:368
+runGuarded @ zone-evergreen.js:136
+api.microtaskDrainDone @ zone-evergreen.js:670
+drainMicroTaskQueue @ zone-evergreen.js:576
+client:52 [WDS] Live Reloading enabled.
